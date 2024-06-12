@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: DM Serif Display;
+}
+.wrap-same-space {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.wrap-same-space-project {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.container-fluid {
+    gap: 1%;
+}
+.navbar-nav .nav-link {
+    text-align: center;
+    margin: 20px;
+   color: rgba(41, 47, 54, 1);
+
+}
+.navbar-brand a:hover {
+    color: #998e8e;
+}
+.navbar-nav a {
+    color: rgba(41, 47, 54, 1);
+    font-weight: 400;
+    font-family: Jost;
+   
+}
+.container-fluid .navbar-brand{
+    font-size: 22px;
+    font-family: DM Serif Display;
+}
+.main-section {
+    position: relative;
+}
+.banner-txt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+}
+.banner-txt h1 {
+
+    max-width: 50%;
+    font-weight: 400;
+    font-family: DM Serif Display;
+}
+.banner-txt p {
+    max-width: 55%;
+    font-weight: 400;
+    font-family: Just;
+    color: rgba(77, 80, 83, 1);
+}
+.banner img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.banner-txt button {
+
+    background: rgba(41, 47, 54, 1);
+    color: #ffff;
+    padding: 10px 15px 10px 15px;
+    font-size: 12px;
+    border-radius: 12px;
+    font-family: Jost;
+    font-weight: 600px;
+}
+.banner-txt img {
+    width: 100%;
+    max-width: 15%;
+}
+.banner-innercard {
+    text-align: center;
+    margin-top: 15%;
+}
+.banner-innercard .card {
+    border: none;
+}
+.banner-innercard p {
+    display: inline-block;
+    color: rgba(77, 80, 83, 1);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Jost;
+}
+.banner-innercard img {
+    width: 100%;
+    max-width: 4%;
+}
+.banner-innercard h5 {
+    font-weight: 400;
+}
+.banner-innercard a {
+    text-decoration: none;
+    color: rgba(77, 80, 83, 1);
+    font-family: Jost;
+    font-weight: 600;
+    font-size: 13px;
+}
+.living-banner {
+    margin-top: 10%;
+}
+.living-image img {
+    width: 100%;
+}
+.text-living h1 {
+    width: 79%;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 33px;
+}
+.text-p-living p {
+
+    color: #4D5053;
+    font-family: Jost;
+    width: 90%;
+    text-align: justify;
+    margin-top: 5%;
+}
+.call-img {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 5%;
+}
+.call-img img {
+    width: 100%;
+    max-width: 12%;
+}
+.call-img p {
+
+    color: #4D5053;
+    font-family: Jost;
+    margin-bottom: 0;
+}
+.call-img .num {
+    font-weight: 700;
+}
+.living-banner button {
+    background: rgba(41, 47, 54, 1);
+    color: #ffff;
+    padding: 10px 15px 10px 15px;
+    font-size: 12px;
+    border-radius: 12px;
+    font-family: Jost;
+    font-weight: 600px;
+    margin-top: 8%;
+}
+.about-us-think {
+    background: rgba(244, 240, 236, 1);
+    padding: 50px 14px 50px 14px;
+    border-radius: 40px;
+    margin-top: 10%;
+    padding: 5%;
+    padding-bottom: 7%;
+}
+.about-us-think h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.about-us-think h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.about-us-think p {
+    font-family: Jost;
+    color: rgba(77, 80, 83, 1);
+    font-weight: 400px;
+    font-size: 12px;
+}
+.about-usa {
+    background-color: #ffff;
+    padding: 15px;
+    font-weight: 400;
+    border-radius: 20px;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.about-usa h4 {
+    font-family: DM Serif Display;
+}
+.about-usa p {
+    font-size: 15px;
+}
+.about-usa img {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 60%;
+}
+.about-txt {
+    display: flex;
+    align-items: center;
+}
+.about-Australia {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.about-Australia p {
+    font-size: 15px;
+}
+.about-Australia img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 60%;
+}
+.about-NewYork {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.about-NewYork p {
+    font-size: 15px;
+}
+.about-NewYork img {
+
+    width: 100%;
+    max-width: 60%;
+}
+.Follow-project-class {
+    display: flex;
+}
+.follow-head {
+    text-align: center;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.follow-head p {
+    font-family: Jost;
+    color: rgba(77, 80, 83, 1);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.child-class {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 27px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.child-class h4 {
+    margin-bottom: 0;
+    display: flex;
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 17px;
+}
+.child-class p {
+    font-family: Jost;
+    color: rgba(77, 80, 83, 1);
+}
+.child-class img {
+    width: 100%;
+    max-width: 70%;
+    margin-right: 10%;
+
+}
+.child-class-img img {
+
+    border-top-right-radius: 50px;
+    max-width: 90%;
+
+}
+.parent-class .parent-child-class {
+    width: 100%;
+}
+.child-class-img1 img {
+    border-top-left-radius: 50px;
+    max-width: 90%;
+
+}
+.child-class-img2 img {
+    border-bottom-right-radius: 50px;
+    max-width: 90%;
+}
+.child-class-img3 img {
+    border-bottom-left-radius: 50px;
+    max-width: 90%;
+
+}
+.child-main {
+    margin-top: 5%;
+}
+.parent-class {
+    text-align: center;
+}
+.home-brand-logo {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.home-brand-class {
+    width: 100px;
+}
+.home-brand-class img {
+    width: 100%;
+}
+.home-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.performance-year h1 {
+    color: rgba(205, 162, 116, 1);
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 55px;
+}
+.performance-year {
+    background: rgba(244, 240, 236, 1);
+    margin-top: 10%;
+    padding: 40px;
+
+}
+.performance-year p {
+    color: rgba(77, 80, 83, 1);
+    font-size: 15px;
+    font-family: Jost;
+
+}
+.experiance-class {
+    border-right: 1px solid rgba(205, 162, 116, 1);
+}
+.artical-main-class {
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.atical-child {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.atical-child h1 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+}
+.atical-child p {
+    color: rgba(77, 80, 83, 1);
+    font-family: Jost;
+    margin-bottom: 0;
+
+}
+.artical-txt {
+    display: flex;
+    align-items: flex-end;
+}
+.artical-parent-class {
+    background: #ffff;
+    border-radius: 45px;
+    border: 1px solid rgba(231, 231, 231, 1);
+    margin-bottom: 7%;
+}
+.img-txt {
+    background-color: #ffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 72px;
+    font-size: 9px;
+    padding: 6px;
+    left: 33px;
+    position: absolute;
+    bottom: 10px;
+    /* top: 222px;
+    left: 32px; */
+    font-family: Jost;
+}
+
+.artical-parent-class1 {
+    background: rgba(244, 240, 236, 1);
+    border-radius: 45px;
+    border: 1px solid rgba(231, 231, 231, 1);
+    margin-bottom: 7%;
+}
+.arrow-class img {
+    width: 100%;
+    max-width: 80%;
+
+}
+.img-pos{
+    position: relative;
+}
+.arrow-class1 img {
+    width: 100%;
+}
+
+.artical-parent-class img {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.artical-parent-class1 img {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.artical-child-class img {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+}
+.artical-txt {
+    padding: 10px 20px 20px 20px;
+}
+.child-txt h6 {
+    margin-bottom: 20px;
+    font-family: DM Serif Display;
+}
+.child-txt p {
+    color: rgba(77, 80, 83, 1);
+    font-family: Jost;
+    font-size: 13px;
+}
+.contact-btn-submit button {
+    border: none;
+    background: rgba(205, 162, 116, 1);
+    padding: 18px 20px 18px 20px;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Jost;
+}
+.contact-btn-submit button img {
+    max-width: 15%;
+    color: rgba(41, 47, 54, 1);
+    
+}
+.contact-us {
+    text-align: center;
+    background: rgba(41, 47, 54, 1);
+    padding: 45px 0px 45px 0px;
+    border-radius: 45px;
+}
+.footer-child img {
+    margin-bottom: 7px;
+}
+.footer-parent p{
+    margin-bottom: 0;
+}
+.contact-us h1 {
+    color: #ffff;
+    font-family: DM Serif Display;
+}
+.contact-us p {
+    font-family: Jost;
+    color: #ffff;
+}
+.visite-social {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.footer-page {
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.footer-page p {
+    color: rgba(77, 80, 83, 1);
+    font-family: Jost;
+}
+.footer-page a {
+    margin-left: 7px;
+}
+.footer-child .navbar-brand {
+    font-size: 21px;
+}
+.footer-copyright{
+    border-top: 2px solid  rgba(229, 229, 229, 1);   
+}
+.footer-copyright p {
+    color: rgba(77, 80, 83, 1);
+    text-align: center;
+    font-weight: 400;
+    font-family: Jost;
+    margin-top: 12%;
+}
+.vector-pic{
+    width: 100%;
+}
+.vector-pic img{
+    max-width: 14%;
+}

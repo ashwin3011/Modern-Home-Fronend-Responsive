@@ -1,0 +1,238 @@
+@media only screen and (max-width:767px) and (min-width:320px) {
+    .navbar-nav .nav-link {
+        margin: 0;
+    }
+    .experiance-class {
+        border-right: 0;
+    }
+    .banner {
+        position: relative;
+    }
+    .banner-txt {
+        top: 26%;
+        position: relative;
+        margin-left: 0;
+        margin-top: 20px;
+        transform: translateY(0);
+    }
+    .banner-txt h1 {
+        font-size: 16px;
+    }
+    .banner-txt p {
+        font-size: 13px
+    }
+    .living-image img {
+
+        margin-top: 10%;
+    }
+    .child-living-banner p {
+        font-size: 12px;
+        font-family: Jost;
+        color: rgba(77, 80, 83, 1);
+    }
+    .call-img img {
+        width: 100%;
+        max-width: 14%;
+    }
+    .home-brand-logo {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .home-brand-logo .modern {
+        width: 100%;
+        max-width: 70%;
+    }
+    .home-brand-logo .vs {
+        width: 100%;
+        max-width: 60%;
+        
+    }
+    .home-brand-logo .brand {
+        width: 100%;
+        max-width: 70%;
+    }
+    .home-brand-logo .classic {
+        width: 100%;
+        max-width: 70%;
+        margin-top: 15px;
+    }
+    .home-brand-logo .nature-home {
+        width: 100%;
+        max-width: 70%;
+        margin-top: 15px;
+    }
+    .child-class-img img {
+        width: 100%;
+    }
+    .child-class-img1 img {
+        width: 100%;
+    }
+    .child-class-img2 img {
+        width: 100%;
+    }
+    .child-class-img3 img {
+        width: 100%;
+    }
+    .artical-parent-class img {
+        width: 100%;
+    }
+    .artical-parent-class1 img {
+        width: 100%;
+    }
+    .follow-head h1 {
+        font-size: 20px;
+    }
+    .follow-head p {
+        font-family: Just;
+        font-size: 14px;
+        color: rgba(77, 80, 83, 1);
+    }
+    .footer-page {
+        text-align: center;
+        margin: 15px;
+    }
+    .contact-us {
+        margin: 15px;
+        border-radius: 35px;
+    }
+    .contact-us h1{
+        font-size: 17px;
+    }
+    .contact-us p{
+        font-size: 12px;
+    }
+    .footer-copyright p {
+        margin: 15px;
+    }
+    .footer-child {
+        margin-bottom: 15px;
+    }
+    .visite-social {
+        margin-bottom: 20px;
+    }
+    .f-addrs {
+        margin: 10px;
+    }
+    .about-us-think h1 {
+
+        font-size: 17px;
+    }
+    .about-us-think{
+        border-radius: 30px;
+    }
+    .call-img .num {
+
+        font-size: 12px;
+    }
+    .call-img p {
+        font-size: 12px;
+    }
+    .living-banner button {
+        padding: 8px;
+        font-size: 10px;
+    }
+    .vector-pic img {
+        max-width: 13%;
+    }
+    .text-living h1 {
+        width: 100%;
+        font-size: 18px;
+    }
+    .text-p-living p {
+        width: 100%;
+    }
+    .child-class{
+        margin-left: 13px;
+        margin-right: 0;
+    }
+    .child-class img {
+        width: 100%;
+        max-width: 55%;
+    }
+    .child-class h4{
+        font-size: 13px;
+    }
+    .child-class p{
+        font-size: 13px;
+    }
+    .contact-btn-submit button{
+        padding: 9px 11px 9px 11px;
+    }
+    .performance-year{
+        margin: 0px 35px 0px 35px;
+    }
+    .visite-social{
+        justify-content: center;
+    }
+    .child-txt p{
+        margin-bottom: 0;
+    }
+   
+   
+    
+}
+@media only screen and (max-width:991px) {
+    .navbar-nav .nav-link {
+        border-bottom: 1px solid black;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .home-brand-logo img {
+        width: 100%;
+        max-width: 80%
+    }
+    .child-class{
+        margin-left: 14px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .child-class p{
+        font-size: 13px;
+    }
+    .child-class img{
+        max-width: 60%;
+        margin-right: 0;
+    }
+    .child-class h4{
+        font-size: 15px;
+    }
+    .child-class-img img {
+        width: 100%;
+    }
+    .child-class-img1 img {
+        width: 100%;
+    }
+    .child-class-img2 img {
+        width: 100%;
+    }
+    .child-class-img3 img {
+        width: 100%;
+    }
+    .artical-parent-class img {
+        width: 100%;
+    }
+    .artical-parent-class1 img {
+        width: 100%;
+    }
+    .text-living h1{
+        width: 100%;
+    }
+    .text-p-living p{
+        width: 100%;
+    }
+   
+    .child-txt h6{
+        font-size: 13px;
+    }
+    .child-txt p{
+        margin-bottom: 0;
+    }
+   
+
+}
